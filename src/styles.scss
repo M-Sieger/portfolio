@@ -34,15 +34,6 @@ body {
   margin-left: 100px;
 }
 
-.projects {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.contact {
-  width: 300px;
-}
-
 .col-4 {
   margin-bottom: 100px;
   margin-top: 300px;
@@ -67,4 +58,21 @@ footer {
 
 .column-img {
   margin-top: 200px;
+  padding-top: 4em;
+}
+
+#cv {
+  text-align: center;
+}
+
+#projects {
+  padding-top: 2em;
+}
+
+#contact {
+  padding-top: 2em;
+}
+
+#about {
+  padding-top: 2em;
 }
