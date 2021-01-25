@@ -1,39 +1,73 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
-$body-bg: #ddd;
-$body-color: #222;
-$primary: hotpink;
-$font-family-base: Arial;
+//$body-bg: rgb(238, 234, 234);
+//$body-color: #222;
+$primary: #1a8fdd;
+$font-family-base: courier;
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
-
+//a:hover {
+//color: rgb(145, 151, 233);
+body {
+  background-color: wheat;
+}
 .fancy {
   display: inline-block;
   background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
-    rgba(131, 58, 180, 1) 0%,
+    rgb(10, 10, 10) 0%,
     rgba(253, 29, 29, 1) 50%,
     rgba(252, 176, 69, 1) 100%
   );
-  color: #fff;
+  color: rgba(229, 153, 153, 0.753);
   padding: 0.5em;
 }
 
+#person {
+  border-radius: 50px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.projects {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact {
+  width: 300px;
+  border: solid black 1px;
+}
+
+.col-4 {
+  margin-bottom: 100px;
+  margin-top: 300px;
+  border: black solid 1px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+}
+
 .column-txt {
-  border: solid 1px black;
+  padding-right: 200px;
+  margin-top: 200px;
+}
+
+.container {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 300px;
+  margin-top: 200px;
+  margin-bottom: 200;
 }
 
 .column-img {
-  border: solid 1px black;
-  height: 500px;
-}
-
-.navbar {
-  margin-right: 500px;
-  background-color: burlywood;
+  margin-top: 200px;
 }

@@ -11,14 +11,9 @@
   </head>
   <body>
     <header>
-      <section>
-        <h1>Moritz Sieger</h1>
-      </section>
-      <br />
-
       <!--Navbar-->
       <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -33,9 +28,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Bio</a>
-                <a class="nav-link" href="#">Contact</a>
+                <button class="btn"><i class="fa fa-home"></i> Home</button>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#cv">CV</a>
               </div>
             </div>
           </div>
@@ -45,42 +42,92 @@
 
     <main>
       <!--Main content about myself-->
-      <section>
-      <div class="row">
-        <div class="column-img col-6">
-          <p>Image</p>
+      <section id="main">
+        <div class="row">
+          <div class="column-img col-6">
+            <img
+              id="person"
+              src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80"
+              class="img-fluid"
+              alt="standing-person"
+            />
+          </div>
+          <div class="column-txt col-6">
+            <h2 id="about">Text about me</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+              deleniti at. Natus explicabo ut fugit eius officia odit quas, a
+              consequatur deserunt vitae suscipit, quis dolore soluta nobis, nam
+              animi. Itaque aut fuga enim nemo sequi eaque quae quasi tempora,
+              vitae neque sunt commodi eius omnis possimus perspiciatis quas
+              reiciendis amet mollitia, beatae dolorem non. Libero cupiditate
+              iure quod voluptates at voluptatibus, labore aspernatur ullam,
+              fugit repellat, provident officia corporis eos voluptatem deleniti
+              veritatis nostrum similique dolore doloremque quam eius quasi.
+              Ratione ullam doloribus ex soluta eaque, quis odit vero suscipit
+              perferendis necessitatibus, eveniet eos, cum consequatur illo
+              velit quas. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Molestias nam odio ab reiciendis inventore quas laboriosam
+              possimus, consectetur dolorem nobis doloremque id cum illo unde a,
+              praesentium ex. Porro eaque delectus, qui necessitatibus deleniti
+              expedita corrupti inventore! Beatae provident deleniti in dicta
+              sunt ad tenetur molestias. Distinctio id eligendi voluptatibus!
+            </p>
+          </div>
         </div>
-        <div class="column-txt col-6">
+      </section>
+      <section id="projects-contact">
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <h2 id="projects">Projects</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/M-Sieger">Github</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h2 id="contact">Contact</h2>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/mosieger/">Instagram</a>
+              </li>
+              <li><a href="mailto:msieger1994@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="vita">
+        <div class="container">
+          <h2 id="cv">CV</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            deleniti at. Natus explicabo ut fugit eius officia odit quas, a
-            consequatur deserunt vitae suscipit, quis dolore soluta nobis, nam
-            animi. Itaque aut fuga enim nemo sequi eaque quae quasi tempora,
-            vitae neque sunt commodi eius omnis possimus perspiciatis quas
-            reiciendis amet mollitia, beatae dolorem non. Libero cupiditate iure
-            quod voluptates at voluptatibus, labore aspernatur ullam, fugit
-            repellat, provident officia corporis eos voluptatem deleniti
-            veritatis nostrum similique dolore doloremque quam eius quasi.
-            Ratione ullam doloribus ex soluta eaque, quis odit vero suscipit
-            perferendis necessitatibus, eveniet eos, cum consequatur illo velit
-            quas.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste fugit
+            tempore laudantium eos dicta, beatae reiciendis atque unde iure
+            dolor qui omnis officia sit neque soluta dolorem vitae suscipit
+            adipisci, quisquam aperiam sapiente similique quas cumque. Velit
+            dolor repudiandae praesentium repellat. Veniam cupiditate in quasi
+            unde nemo laudantium quibusdam eligendi provident, nesciunt tenetur
+            dolorem officia rem consequatur aut praesentium? Odit consequuntur
+            totam sit cum libero rem veritatis quae iste praesentium nulla
+            temporibus velit ut laudantium voluptatem, fugiat reprehenderit,
+            consectetur, provident iure quas eos ratione porro modi ipsum?
+            Laudantium incidunt velit odit veniam soluta vero mollitia quas eius
+            perspiciatis, et voluptatum ut provident eum iste obcaecati error
+            inventore quod ipsam quasi maxime nihil, non officia rem. Eaque,
+            atque! Fugit magnam, suscipit in ducimus nemo praesentium architecto
+            omnis voluptate hic necessitatibus amet quis sint odit sit sequi
+            molestias vitae quia, facere voluptatem iure odio repellendus ipsa.
+            Quod sunt sequi mollitia nam illo.
           </p>
         </div>
-      </div>
+      </section>
     </main>
+
     <footer>
-      <!--impressum,contact via mail etc.-->
-      <div class="row align-items-center">
-        <div class="col">
-         Contact
-        </div>
-        <div class="col">
-          Impressum
-        </div>
-        <div class="col">
-          Copyright
-        </div>
-          </div>
+      <!--Copyright etc-->
+      <section id="footer">
+        <div class="col">© Copyright Moritz Sieger</div>
+      </section>
     </footer>
   </body>
 </html>
